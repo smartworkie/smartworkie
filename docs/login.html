@@ -1,1 +1,116 @@
 
+<html> 
+ <head>
+   <style>
+     .j{
+      background-color:grey;
+      margin: 0 auto;
+      height: 80px;
+    }
+     .j li{
+      display: inline;
+      
+      font-family: Tahoma;
+      font-size:25px;
+      font-weight: 400;
+      color: purple;
+      text-align: right;
+    }
+    .i{
+      background-color: rgba(200, 100, 100, 0.1);
+      margin: 0 auto;
+      height: 60px;
+      
+    }
+    .i li{
+      font-weight:400;
+      text-align: left;
+      height: 80px;
+      display: inline;
+      margin: 20px;
+      }
+          #logo{
+      font-size: 30px;
+      margin-right: 800px;
+      text-align: left;
+      font-family: Apple Chancery, cursive;
+    }
+       .pa{
+      margin-right: 20px;
+    text-align: left;
+    position: relative:
+    right: 100px;}
+ a{
+        color: inherit;
+        text-decoration:inherit;
+      }
+
+
+h1{
+  font-size: 30px;
+  color: black;
+ 
+  position: relative:
+    top: 10px;
+}
+form{
+  font-size: 50px;
+  color: blue;
+  font-style: Helvetica;
+  background-color: blue;
+  width: 40%;
+  height: 400px;
+  margin-left: 30%;
+ text-align: center;
+}
+ #username{
+ 
+  font-size: 20px;
+  height: 40px;
+}
+#password{
+  margin-top: 5px;
+  height: 40px;
+  font-size: 20px;
+  
+}
+#submit{
+  height: 40px;
+  width: 80px;
+}
+   </style>
+   <title>Login Page</title>
+ </head>
+  <body>
+<div>
+   
+  <ul class="j">
+   <br><li id ="logo">smartSolutions</li>
+   
+    <li class="pa"><a href="/Images/login.html">LOGIN</a></li>
+    <li class="pa"><a href="/Images/signups.html">SIGN UP</A></li>
+   </ul>
+   </div>
+   <div>
+   <ul class="i">
+     <br><li><a>ABOUT US</a></li>
+     <li><a>F.A.Q</a></li>
+     <li><a>CONTACT US</a></li>
+     <li><a>SAMPLE</a></li>
+     </ul>
+   </div>
+    <form method="POST">
+      
+      <h1> Login to Your Account</h1>
+ <br> <input type="text" name="username" id="username" required minlength="5" maxlength="10" placeholder="username">
+      <br>
+      <br>
+  <input type="password" id="password" name="pw" placeholder="password"minlength="5" maxlength="10">
+   <br>
+      <p id="message"></p>
+   <br><input type="Submit" id= "submit" value="Log In">
+        
+    
+    </form>
+  </body>
+</html>
