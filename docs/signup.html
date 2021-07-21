@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        margin: 0 auto;
+      }
+   .j{
+      background-color:grey;
+      margin: 0 auto;
+      height: 80px;
+    }
+     .j li{
+      display: inline;
+      
+      font-family: Tahoma;
+      font-size:25px;
+      font-weight: 400;
+      color: purple;
+      text-align: right;
+    }
+    .i{
+      background-color: rgba(200, 100, 100, 0.1);
+      margin: 0 auto;
+      height: 60px;
+      
+    }
+    .i li{
+      font-weight:400;
+      text-align: left;
+      height: 80px;
+      display: inline;
+      margin: 20px;
+      }
+        #logo{
+      font-size: 30px;
+      margin-right: 800px;
+      text-align: left;
+      font-family: Apple Chancery, cursive;
+    }
+       .pa{
+      margin-right: 20px;
+    text-align: left;
+    position: relative:
+    right: 100px;}
+ a{
+        color: inherit;
+        text-decoration:inherit;
+      }
+      h1{
+ color: black;
+ font-size: 30px;
+}
+#username{
+ 
+  font-size: 20px;
+  height: 40px;
+}
+#pw{
+  margin-top: 5px;
+  height: 40px;
+  font-size: 20px;
+  
+}
+#submit{
+  height: 40px;
+  width: 70px;
+}
+form{
+  font-size: 40px;
+  color: blue;
+  font-style: Helvetica;
+  background-color: blue;
+  width: 40%;
+  height: 400px;
+  
+  margin:0 auto;
+ text-align: center;
+}
+
+#p{
+  font-size: 16px;
+  margin: 0px;
+}
+     
+    </style>
+    <meta charset ="utf-8">
+    <title>Sign Up Page</title>
+
+  </head>
+  <body>
+ <div>
+   
+  <ul class="j">
+   <br><li id ="logo">smartSolutions</li>
+   
+    <li class="pa"><a href="/Images/.html">LOGIN</a></li>
+    <li class="pa"><a href="/Images/signups.html">SIGN UP</a></li>
+    
+   </ul>
+   </div>
+   <div>
+   <ul class="i">
+     <br><li><a>ABOUT US</a></li>
+     <li><a>F.A.Q</a></li>
+     <li><a>CONTACT US</a></li>
+     <li><a>SAMPLE</a></li>
+     </ul>
+   </div>
+
+    
+    <form action ="submission.html" method="POST"> 
+      <h1> Create Your Account!</h1>
+ <br>    
+      <input type="text" id="username" name="username" placeholder="username" required minlength="3" maxlength="8">
+      <br> <br>
+      <input type="password" name="pw" id="pw" required minlength="8" maxlength="14" placeholder="password" case-sensitive number character>
+      <br>
+      <p id="p">Password must be 8 character long, contain at least a number and a capital letter</p>
+      <br>
+  
+      <input id="submit" type="submit" value="Submit">
+      
+    </form>
+  </body>
+</html>
